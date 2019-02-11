@@ -3,7 +3,7 @@ Masterball helps Team Rocket member's doing there jobs during p2p correction
 
 Use it as much as you want, but we are at 42 so .. be sure to understand and know how to reproduce these tests yourself. No scripty-kids here!
 
-## Damn ! What is this awesoooooome programm ? 
+## Damn ! What is this awesoooooome program ? 
 During p2p corrections - as a good student - we sometimes have to test files containing functions instead of programs.
 
 Adding a library, configuring prototypes, recoding functions (such as ft_putchar) takes time! 
