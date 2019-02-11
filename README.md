@@ -1,5 +1,5 @@
 # Masterball
-Masterball helps Team Rocket member's doing there jobs during p2p correction 
+Masterball helps Team Rocket members doing there jobs during p2p corrections
 
 Use it as much as you want, but we are at 42 so .. be sure to understand and know how to reproduce these tests yourself. No scripty-kids here!
 
