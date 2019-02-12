@@ -18,13 +18,11 @@ int	ft_atoi(char *str);
 
 int	main()
 {
-	char str[] = "		-42";
+	char str1[] = "		-42";
 	char str2[] = "  ++42";
 	char str3[] = "   +1789a0";
 	char str4[] = "   -2147483648";
 
-	printf("ft_atoi = %d\n", ft_atoi(str));
-	printf("rr_atoi = %d\n", atoi(str));
 	printf("ft_atoi = %d\n", ft_atoi(str1));
 	printf("rr_atoi = %d\n", atoi(str1));
 	printf("ft_atoi = %d\n", ft_atoi(str2));
