@@ -12,7 +12,7 @@ else
 fi
 
 echo ————————————————
-echo what day are we correcting ? | j00\, j\.\.\, j13
+echo what day are we correcting ? \| j00\, j\.\.\, j13
 echo ————————————————
 
 read daynb
@@ -34,7 +34,7 @@ elif [ "$daynb" = "j04" ]
 then
 	cp $daynb/ex00/main.c $pathname/ex00/main.c
 	cp $daynb/ex01/main.c $pathname/ex01/main.c
-	cp $daynb/ex02/main.c /$pathname/ex02/main.c
+	cp $daynb/ex02/main.c $pathname/ex02/main.c
 	cp $daynb/ex03/main.c $pathname/ex03/main.c
 	cp $daynb/ex04/main.c $pathname/ex04/main.c
 	cp $daynb/ex05/main.c $pathname/ex05/main.c
