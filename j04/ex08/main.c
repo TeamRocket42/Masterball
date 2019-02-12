@@ -6,7 +6,7 @@
 /*   By: scarpent <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/12 10:25:09 by scarpent          #+#    #+#             */
-/*   Updated: 2019/02/12 10:28:21 by scarpent         ###   ########.fr       */
+/*   Updated: 2019/02/12 11:00:02 by scarpent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,8 @@ void	test_01(void)
 	time0 = clock();
 	printf("Output: %d, ", ft_eight_queens_puzzle());
 	time1 = clock();
-	printf("Expected: %d", 92);
-	printf("Time: %ds\n", (time1 - time0) / CLOCKS_PER_SEC);
+	printf("Expected: %d, ", 92);
+	printf("Time: %lus\n", (time1 - time0) / CLOCKS_PER_SEC);
 }
 
 int		main()

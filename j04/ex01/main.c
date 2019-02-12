@@ -6,7 +6,7 @@
 /*   By: scarpent <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/12 08:39:09 by scarpent          #+#    #+#             */
-/*   Updated: 2019/02/12 10:35:56 by scarpent         ###   ########.fr       */
+/*   Updated: 2019/02/12 10:43:51 by scarpent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ void	test_01(void)
 	printf("Expected: %d\n", 120);
 }
 
-void	test_02
+void	test_02(void)
 {
 	printf("d04 ex01 test_02 -- ");
 	printf("Input: %d, ", 12);
