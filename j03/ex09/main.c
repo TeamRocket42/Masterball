@@ -20,7 +20,7 @@ int		main(void)
 	int size;
 	int i;
 
-	size = 5
+	size = 5;
 	ft_sort_integer_table(tab, size);
 	while (i < size)
 	{
