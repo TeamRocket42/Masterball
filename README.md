@@ -3,6 +3,7 @@ Masterball helps Team Rocket members doing there jobs during p2p corrections
 
 Use it as much as you want, but we are at 42 so .. be sure to understand and know how to reproduce these tests yourself. No scripty-kids here!
 
+⚠️ Run the update.sh script sometimes, just in case
 ⚠️ If you see errors just e-mail us at ldallend@student.42.fr
 
 ## Damn ! What is this awesoooooome program ? 
