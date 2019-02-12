@@ -31,7 +31,7 @@ If this program helped you, do not forget us at the end of the pool during the M
 4. cd correction_path
 5. norminette -R CheckForbiddenSourceHeader \*/\*
 6. cd ..
-7. bash ./magic_script.sh 
+7. bash magic_script.sh 
 8. cd correction_path 
 9. *Shia LaBeouf Voice* A GOOD CORRECTION ? DO IT !
 
