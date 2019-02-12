@@ -20,7 +20,7 @@ Ahahahahah you are supposed to know how to use theses main.c files without manua
 
 ## Team Rocket Members 
 
-asablayr 🐼  - hehlinger 🐯  - ldallend 🦄  - lfalkau 🦁  - scarpent 🦊  - tchardat 🐞 
+asablayr 🐼  - hehlinger 🐯  - ldallend 🦄  - lfalkau 🦁  - scarpent 🦊  - tchardat 🐧 
 
 If this program helped you, do not forget us at the end of the pool during the MEGATRON ! Play the game ..... ;-)
 
