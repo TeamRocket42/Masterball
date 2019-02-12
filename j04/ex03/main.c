@@ -17,7 +17,7 @@ int		ft_recursive_power(int nb, int power);
 void	test_01(void)
 {
 	printf("d04 ex03 test_01 -- ");
-	printf("Input: %d, %d ", 5 -1);
+	printf("Input: %d; %d ", 5, -1);
 	printf("Output: %d, ", ft_recursive_power(5, -1));
 	printf("Expected: %d\n", 0);
 }
