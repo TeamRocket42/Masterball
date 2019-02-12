@@ -1,8 +1,8 @@
 echo ————————————————
 echo This file moves main.c files of selected day \in the functions folders.
 echo ————————————————
-echo path to the file of the day | Type only the name and press Enter
-————————————————
+echo path to the file of the day \| Type only the name and press Enter
+echo ————————————————
 read pathname
 if [ -d "$pathname" ]
 then
