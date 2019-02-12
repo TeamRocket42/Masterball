@@ -1,4 +1,8 @@
-echo path to the file of the day
+echo ————————————————
+echo This file moves main.c files of selected day \in the functions folders.
+echo ————————————————
+echo path to the file of the day | Type only the name and press Enter
+————————————————
 read pathname
 if [ -d "$pathname" ]
 then
@@ -7,7 +11,10 @@ else
 	echo couldn\'t find directory
 fi
 
-echo what day are we correcting ?
+echo ————————————————
+echo what day are we correcting ? | j00, j.., j13
+echo ————————————————
+
 read daynb
 
 if [ "$daynb" = "j03" ]
