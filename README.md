@@ -12,7 +12,7 @@ During p2p corrections - as a good student - we sometimes have to test files con
 Adding a library, configuring prototypes, recoding functions (such as ft_putchar) takes time! 
 A good corrector must perform unit tests to be consistent before the test of the Moulinette, complicated when there are more than 25 exercises in one day..
 
-Masterball is our TEAM - ROCKET M.A.G.I.C F.I.L.E which contains everything we need to test all your functions without wasting time.
+Masterball is our TEAM - ROCKET M.A.G.I.C T.O.O.L which contains everything we need to test all your functions without wasting time.
 
 ## Compilation ?
 
