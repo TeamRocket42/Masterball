@@ -12,7 +12,7 @@ else
 fi
 
 echo ————————————————
-echo what day are we correcting ? | j00, j.., j13
+echo what day are we correcting ? | j00\, j\.\.\, j13
 echo ————————————————
 
 read daynb
