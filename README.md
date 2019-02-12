@@ -29,7 +29,7 @@ If this program helped you, do not forget us at the end of the pool during the M
 2. cd Masterball
 3. git clone vogsphere@vogsphere.42.fr:intra/year/activities/piscine_c_day_xx/user correction_path
 4. cd correction_path
-5. norminette -R CheckForbiddenSourceHeader */*
+5. norminette -R CheckForbiddenSourceHeader \*/\*
 6. cd ..
 7. bash ./magic_script.sh 
 8. cd correction_path 
