@@ -6,7 +6,7 @@
 /*   By: scarpent <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/12 09:46:58 by scarpent          #+#    #+#             */
-/*   Updated: 2019/02/12 10:00:22 by scarpent         ###   ########.fr       */
+/*   Updated: 2019/02/12 10:56:39 by scarpent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -46,11 +46,11 @@ void	test_04(void)
 
 	printf("d04 ex06 test_04 -- ");
 	printf("Input: %d, ", 1640817049);
-	time_0 = clock();
+	time0 = clock();
 	printf("Output: %d, ", ft_is_prime(1640817049));
-	time_1 = clock();
+	time1 = clock();
 	printf("Expected: %d, ", 0);
-	printf("Time: %ds\n", (time1 - time0) / CLOCKS_PER_SEC);
+	printf("Time: %lus\n", (time1 - time0) / CLOCKS_PER_SEC);
 }
 
 void	test_05(void)
@@ -60,11 +60,11 @@ void	test_05(void)
 
 	printf("d04 ex06 test_05 -- ");
 	printf("Input: %d, ", 2147483647);
-	time_0 = clock();
+	time0 = clock();
 	printf("Output: %d, ", ft_is_prime(2147483647));
-	time_1 = clock();
-	printf("Expected: %d\n", 1);
-	printf("Time: %ds\n", (time1 - time0) / CLOCKS_PER_SEC);
+	time1 = clock();
+	printf("Expected: %d, ", 1);
+	printf("Time: %lus\n", (time1 - time0) / CLOCKS_PER_SEC);
 }
 
 int		main(void)

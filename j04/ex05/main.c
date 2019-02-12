@@ -6,7 +6,7 @@
 /*   By: scarpent <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/12 09:14:46 by scarpent          #+#    #+#             */
-/*   Updated: 2019/02/12 10:39:36 by scarpent         ###   ########.fr       */
+/*   Updated: 2019/02/12 10:53:19 by scarpent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,7 +58,7 @@ void	test_05(void)
 	printf("Output: %d, ", ft_sqrt(2147483647));
 	time1 = clock();
 	printf("Expected: %d, ", 0);
-	printf("Time: %ds)\n", (time1 - time0) / CLOCKS_PER_SEC);
+	printf("Time: %lus)\n", (time1 - time0) / CLOCKS_PER_SEC);
 }
 
 int		main(void)
