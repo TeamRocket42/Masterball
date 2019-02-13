@@ -25,5 +25,9 @@ int		main(void)
 	printf("your output : %s	", asd);
 	printf("official output : %s	", zxc);
 	printf("DIFF = %d", DIFF);
+	if (DIFF == 0)
+	{
+		printf("Il a pas dit bonjour ?");
+	}
 	return (0);
 }
