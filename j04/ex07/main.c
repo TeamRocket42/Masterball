@@ -27,8 +27,8 @@ void	test_02(void)
 {
 	printf("d04 ex07 test_02 -- ");
 	printf("Input: %d, ", 1);
-	printf("Output: %d, ", ft_find_next_prime(7));
-	printf("Expected: %d\n", 7);
+	printf("Output: %d, ", ft_find_next_prime(1));
+	printf("Expected: %d\n", 1);
 }
 
 void	test_03(void)
