@@ -6,29 +6,71 @@
 /*   By: hehlinge <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 17:21:55 by hehlinge          #+#    #+#             */
-/*   Updated: 2019/02/11 20:07:49 by hehlinge         ###   ########.fr       */
+/*   Updated: 2019/02/13 09:44:50 by scarpent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <stdlib.h>
-#include <limits.h>
 
 int	ft_atoi(char *str);
 
-int	main()
+void	test_01(void)
 {
-	char str1[] = "		-42";
-	char str2[] = "  ++42";
-	char str3[] = "   +1789a0";
-	char str4[] = "   -2147483648";
+	char str[] = "		-42";
 
-	printf("ft_atoi = %d\n", ft_atoi(str1));
-	printf("rr_atoi = %d\n", atoi(str1));
-	printf("ft_atoi = %d\n", ft_atoi(str2));
-	printf("rr_atoi = %d\n", atoi(str2));
-	printf("ft_atoi = %d\n", ft_atoi(str3));
-	printf("rr_atoi = %d\n", atoi(str3));
-	printf("ft_atoi = %d\n", ft_atoi(str4));
-	printf("rr_atoi = %d\n", atoi(str4));
+	printf("d03 ex08 test_01 -- ");
+	printf("Input: \"%s\", ", str);
+	printf("Output: %d, ", ft_atoi(str));
+	printf("Expected: %d\n", atoi(str));
+}
+
+void	test_02(void)
+{
+	char str[] = "  ++42";
+
+	printf("d03 ex08 test_02 -- ");
+	printf("Input: \"%s\", ", str);
+	printf("Output: %d, ", ft_atoi(str));
+	printf("Expected: %d\n", atoi(str));
+}
+
+void	test_03(void)
+{
+	char str[] = "   +1789a0";
+
+	printf("d03 ex08 test_03 -- ");
+	printf("Input: \"%s\", ", str);
+	printf("Output: %d, ", ft_atoi(str));
+	printf("Expected: %d\n", atoi(str));
+}
+
+void	test_04(void)
+{
+	char str[] = "   -21474836 48";
+
+	printf("d03 ex08 test_04 -- ");
+	printf("Input: \"%s\", ", str);
+	printf("Output: %d, ", ft_atoi(str));
+	printf("Expected: %d\n", atoi(str));
+}
+
+void	test_05(void)
+{
+	char str[] = "";
+
+	printf("d03 ex08 test_05 -- ");
+	printf("Input: \"%s\", ", str);
+	printf("Output: %d, ", ft_atoi(str));
+	printf("Expected: %d\n", atoi(str));
+}
+
+int		main()
+{
+	test_01();
+	test_02();
+	test_03();
+	test_04();
+	test_05();
+	return (0);
 }

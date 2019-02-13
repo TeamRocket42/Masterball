@@ -6,7 +6,7 @@
 /*   By: hehlinge <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 17:21:55 by hehlinge          #+#    #+#             */
-/*   Updated: 2019/02/11 19:49:26 by hehlinge         ###   ########.fr       */
+/*   Updated: 2019/02/13 08:47:20 by scarpent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,11 +14,20 @@
 
 void	ft_ft(int *nbr);
 
-int		main(void)
+void	test_01(void)
 {
 	int nbr;
 
+	printf("d03 ex00 test_01 -- ");
 	nbr = 0;
 	ft_ft(&nbr);
-	printf("%d", nbr);
+	printf("Before: %d, ", 0);
+	printf("After:  %d, ", nbr);
+	printf("Expected: %d\n", 42);
+}
+
+int		main(void)
+{
+	test_01();
+	return (0);
 }
