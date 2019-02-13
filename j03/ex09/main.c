@@ -6,7 +6,7 @@
 /*   By: hehlinge <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/11 20:03:41 by hehlinge          #+#    #+#             */
-/*   Updated: 2019/02/13 10:50:00 by scarpent         ###   ########.fr       */
+/*   Updated: 2019/02/13 10:58:54 by scarpent         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -124,7 +124,7 @@ void	test_05(void)
 	ft_sort_integer_table(tab, size);
 	ft_putstr(", Output: ");
 	ft_print_integer_table(tab, size);
-	ft_putstr(", Expected: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 1 , 16, 17, 18, 19, 20, 21 }\n");
+	ft_putstr(", Expected: { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 }\n");
 }
 
 int		main(void)
