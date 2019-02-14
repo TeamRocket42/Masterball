@@ -6,11 +6,11 @@ char *ft_strstr(char *str, char *to_find);
 int main()
 {
 	char *str;
-	str = "aaaaabcde";
+	str = "bbbcf";
 	char *str2;
-	str2 = "aaaaabcde";
+	str2 = "bbbcf";
 	char *to_find;
-	to_find = "abc";
+	to_find = "bbcf";
 	printf("ft_strstr = %s\n", ft_strstr(str, to_find));
 	printf("rr_strstr = %s\n\n", strstr(str2, to_find));
 
@@ -40,5 +40,22 @@ int main()
 	to_find4 = "45";
 	printf("ft_strstr = %s\n", ft_strstr(str7, to_find4));
 	printf("rr_strstr = %s\n\n", strstr(str8, to_find4));
-}
 
+	char *str9;
+	str9 = "abdtsbaauaaabcd";
+	char *str10;
+	str10 = "abdtsbaauaaabcd";
+	char *to_find5;
+	to_find5 = "abcd";
+	printf("ft_strstr = %s\n", ft_strstr(str9, to_find5));
+	printf("rr_strstr = %s\n\n", strstr(str10, to_find5));
+
+	char *str11;
+	str11 = "";
+	char *str12;
+	str12 = "";
+	char *to_find6;
+	to_find6 = "";
+	printf("ft_strstr = %s\n", ft_strstr(str11, to_find6));
+	printf("rr_strstr = %s\n\n", strstr(str12, to_find6));
+}
