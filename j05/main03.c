@@ -27,7 +27,7 @@ int		main(void)
 	printf("DIFF = %d", DIFF);
 	if (DIFF == 0)
 	{
-		printf("Il a pas dit bonjour ?");
+		printf("\nIl a pas dit bonjour ?");
 	}
 	return (0);
 }
