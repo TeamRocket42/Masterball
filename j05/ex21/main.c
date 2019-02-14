@@ -6,7 +6,7 @@
 /*   By: scarpent <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/02/12 14:08:57 by scarpent          #+#    #+#             */
-/*   Updated: 2019/02/12 16:30:33 by scarpent         ###   ########.fr       */
+/*   Updated: 2019/02/14 12:34:16 by hehlinge         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ int		ft_atoi_base(char *str, char *base);
 void	test_01(void)
 {
 	printf("d05 ex21 test_01 -- ");
-	printf("Input: %s %s, ", "12874", "0123456789ABCDEFGHIJKLMNO");
-	printf("Output: %d, ", ft_atoi_base("12874", "0123456789ABCDEFGHIJKLMNO"));
-	printf("Expected: %d\n", 427054);
+	printf("Input: %s %s, ", "-0000F", "0-23456789ABCDEF");
+	printf("Output: %d, ", ft_atoi_base("-0000F", "0-23456789ABCDEF"));
+	printf("Expected: %d\n", 0);
 }
 
 void	test_02(void)
@@ -33,16 +33,16 @@ void	test_02(void)
 void	test_03(void)
 {
 	printf("d05 ex21 test_03 -- ");
-	printf("Input: %s %s, ", "42", "574");
-	printf("Output: %d, ", ft_atoi_base("42", "754"));
+	printf("Input: %s %s, ", "+42", "574");
+	printf("Output: %d, ", ft_atoi_base("+42", "754"));
 	printf("Expected: %d\n", 0);
 }
 
 void	test_04(void)
 {
 	printf("d05 ex21 test_04 -- ");
-	printf("Input: %s %s, ", "##$@)!", "!@)%$#");
-	printf("Output: %d, ", ft_atoi_base("##$@)!", "!@)%$#"));
+	printf("Input: %s %s, ", "+##$@)!", "!@)%$#");
+	printf("Output: %d, ", ft_atoi_base("+##$@)!", "!@)%$#"));
 	printf("Expected: %d\n", 46272);
 }
 
@@ -78,6 +78,30 @@ void	test_08(void)
 	printf("Expected: %d\n", 0);
 }
 
+void	test_09(void)
+{
+	printf("d05 ex21 test_01 -- ");
+	printf("Input: %s %s, ", "-0000F", "0-23456789ABCDEF");
+	printf("Output: %d, ", ft_atoi_base("-0000F", "0-23456789ABCDEF"));
+	printf("Expected: %d\n", 0);
+}
+
+void	test_10(void)
+{
+	printf("d05 ex21 test_01 -- ");
+	printf("Input: %s %s, ", "-0000F", "0+23456789ABCDEF");
+	printf("Output: %d, ", ft_atoi_base("-0000F", "0+23456789ABCDEF"));
+	printf("Expected: %d\n", 0);
+}
+
+void	test_11(void)
+{
+	printf("d05 ex21 test_01 -- ");
+	printf("Input: %s %s, ", "2-A", "0123456789ABCDEF");
+	printf("Output: %d, ", ft_atoi_base("2-A", "0123456789ABCDEF"));
+	printf("Expected: %d\n", 2);
+}
+
 int		main(void)
 {
 	test_01();
@@ -88,5 +112,8 @@ int		main(void)
 	test_06();
 	test_07();
 	test_08();
+	test_09();
+	test_10();
+	test_11();
 	return (0);
 }
