@@ -19,6 +19,6 @@ int main()
 {
 	char s1[] = "123456";
 	char s2[] = "abcd";
-	printf("ft_strcmp = %d\n", ft_strncmp(s1, s2, 3));
-	printf("rr_strcmp = %d\n", strncmp(s1, s2, 3));
+	printf("ft_strncmp = %d\n", ft_strncmp(s1, s2, 3));
+	printf("rr_strncmp = %d\n", strncmp(s1, s2, 3));
 }
