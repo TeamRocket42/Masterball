@@ -22,6 +22,6 @@ void ft_putchar(char c)
 
 int main()
 {
-	char str[] = "salut,Comment tu vas ? 42mots quarante-deux; cinquante+et+un";
+	char str[] = "salut,ComMent tu vAs ? 42mots quarantE-deux; ciNquante+eT+un";
 	printf("%s", ft_strcapitalize(str));
 }
