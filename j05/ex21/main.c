@@ -51,7 +51,7 @@ void	test_05(void)
 	printf("d05 ex21 test_05 -- ");
 	printf("Input: %s %s, ", "11001+1", "01");
 	printf("Output: %d, ", ft_atoi_base("11001+1", "01"));
-	printf("Expected: %d\n", 0);
+	printf("Expected: %d\n", 25);
 }
 
 void	test_06(void)
