@@ -75,7 +75,7 @@ then
 	cp $daynb/ex03/main.c $pathname/ex03/main.c
 	cp $daynb/ex04/main.c $pathname/ex04/main.c
 	cp $daynb/ex05/main.c $pathname/ex05/main.c
-	cp $pathname/ex04/ft_print_words_tables.c $pathname/ex05
+	cp $pathname/ex04/ft_split_whitespaces.c $pathname/ex05
 	cp $daynb/ex06/main.c $pathname/ex06/main.c
 	cp $daynb/ex07/main.c $pathname/ex07/main.c
 fi
