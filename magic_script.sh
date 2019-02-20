@@ -67,4 +67,14 @@ then
 	cp $daynb/main19.c $pathname/ex19/main.c
 	cp $daynb/main20.c $pathname/ex20/main.c
 	cp $daynb/main21.c $pathname/ex21/main.c
+elif [ "$daynb" = "j07" ]
+then
+	cp $daynb/ex00/main.c $pathname/ex00/main.c
+	cp $daynb/ex01/main.c $pathname/ex01/main.c
+	cp $daynb/ex02/main.c $pathname/ex02/main.c
+	cp $daynb/ex03/main.c $pathname/ex03/main.c
+	cp $daynb/ex04/main.c $pathname/ex04/main.c
+	cp $daynb/ex05/main.c $pathname/ex05/main.c
+	cp $daynb/ex06/main.c $pathname/ex06/main.c
+	cp $daynb/ex07/main.c $pathname/ex07/main.c
 fi
