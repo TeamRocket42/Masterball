@@ -24,7 +24,7 @@ void	test_01(void)
 	res = ft_concat_params(1, NULL);
 	printf("Input: %s, ", NULL);
 	printf("Output: %s, ", res);
-	printf("Expected: %s\n", NULL);
+	printf("Expected: %s\n", "");
 }
 
 void	test_02(void)
